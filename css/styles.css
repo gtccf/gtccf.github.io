@@ -103,6 +103,14 @@ html {
     height: 100%;
 }
 
+.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    height: 0px;
+    visibility: hidden;
+}
+
 /* Carousel base class */
 /*.carousel {
 margin-bottom: 60px;
