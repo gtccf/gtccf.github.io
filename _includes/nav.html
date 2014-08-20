@@ -1,0 +1,27 @@
+<div id="main-nav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-collapse collapse" id="navbar-main">
+      <ul class="nav navbar-nav">
+        {% capture page_url %}{{ page.url | replace:'index.html','' }}{% endcapture %}
+        <!-- {{ page_url }} -->
+        {% for item in site.data.nav %}
+        {% if item.subitems != null %}
+          {% assign active = false %}
+          {% for subitem in item.subitems %}
+            {% if subitem.href == page_url %}{% assign active = true %}{% endif %}
+          {% endfor %}
+          <li class="dropdown {% if active %}active{% endif %}"><a class="dropdown-toggle" data-toggle="dropdown" href="#">{{ item.title }} <span class="caret"></span></a>
+          <ul class="dropdown-menu" aria-labelledby="themes">
+            {% for subitem in item.subitems %}
+            <li {% if page_url == subitem.href %}class="active"{% endif %}><a {% if subitem.external %}target="_blank"{% endif %} href="{{ subitem.href }}">{{ subitem.title }}</a></li>
+            {% endfor %}
+          </ul>
+          </li>
+        {% else %}
+        <li {% if page_url == item.href %}class="active"{% endif %}><a href="{{ item.href }}">{{ item.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

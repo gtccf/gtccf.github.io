@@ -1,0 +1,9 @@
+# Site settings
+title: Georgia Tech Christian Campus Fellowship
+email: hello@gtccf.org
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.gtccf.org" # the base hostname & protocol for your site
+twitter_username: GTCCF
+
+# Build settings
+markdown: kramdown

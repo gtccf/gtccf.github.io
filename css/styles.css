@@ -5,6 +5,7 @@
 .pageheadtext{
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #00a5f5;
+        text-align: center;
   /* text-transform: uppercase;*/
  /*  font-family: 'Raleway', sans-serif;*/
 }
@@ -33,6 +34,7 @@
 }
 
 /* navbar */
+#main-nav { text-transform: uppercase; }
 .navbar-default {
     background-color: #F8F8F8;
     border-color: #F8F8F8;
