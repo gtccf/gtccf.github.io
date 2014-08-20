@@ -3950,7 +3950,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #ffff99;  /*BG WHEN BRAND IS HOVERED OVER- CHANGED*/
 }
 .navbar-default .navbar-text {
-  color: #777; 
+  color: #777;
 }
 .navbar-default .navbar-nav > li > a {
   color: #ffffff; /*DEFAULT NAVBAR TEXT COLOR EXCLUDES BRAND- CHANGED*/

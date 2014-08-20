@@ -17,7 +17,7 @@
 
 .subheadtext{
 	font-family: "Arial", Helvetica, sans-serif;
-	
+
 }
 
 .blue{
@@ -29,7 +29,7 @@
 	font-family: "Arial", Helvetica, sans-serif;
 }
 
-.centered{ 
+.centered{
 	text-align:center;
 }
 
@@ -63,7 +63,7 @@ body
 {
     font-family: 'Lato', 'sans-serif';
     }
-.profile 
+.profile
 {
     min-height: 245px;
     display: inline-block;
@@ -82,15 +82,15 @@ figcaption.ratings a:hover
     color:#f39c12;
     text-decoration:none;
     }
-.divider 
+.divider
 {
     border-top:1px solid rgba(0,0,0,0.1);
     }
-.emphasis 
+.emphasis
 {
     border-top: 4px solid transparent;
     }
-.emphasis:hover 
+.emphasis:hover
 {
     border-top: 4px solid #1abc9c;
     }
@@ -98,7 +98,7 @@ figcaption.ratings a:hover
 {
     margin-bottom:0;
     }
-span.tags 
+span.tags
 {
     background: #1abc9c;
     border-radius: 2px;
@@ -107,7 +107,7 @@ span.tags
     padding: 2px 4px;
     }
 
-	
+
 #footer {
 	position: fixed;
 	bottom: 0;
@@ -117,7 +117,7 @@ span.tags
 	background-color: #dbdbdb;
 	margin-left: -20px; /* Removes white space to left of footer with fixed- otherwise use absolute.  */
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
-	color: #00a5f5;	
+	color: #00a5f5;
 }
 
 html {
@@ -179,6 +179,6 @@ html {
       margin-top: 10px;
     }*/
 
-	
-	
+
+
 <!--navbar dropdown code-->
