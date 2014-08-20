@@ -13,12 +13,12 @@
           <li class="dropdown {% if active %}active{% endif %}"><a class="dropdown-toggle" data-toggle="dropdown" href="#">{{ item.title }} <span class="caret"></span></a>
           <ul class="dropdown-menu" aria-labelledby="themes">
             {% for subitem in item.subitems %}
-            <li {% if page_url == subitem.href %}class="active"{% endif %}><a {% if subitem.external %}target="_blank"{% endif %} href="{{ subitem.href }}">{{ subitem.title }}</a></li>
+            <li {% if page_url == subitem.href %}class="active"{% endif %}><a {% if subitem.external %}target="_blank"{% endif %} href="{{ site.baseurl }}{{ subitem.href }}">{{ subitem.title }}</a></li>
             {% endfor %}
           </ul>
           </li>
         {% else %}
-        <li {% if page_url == item.href %}class="active"{% endif %}><a href="{{ item.href }}">{{ item.title }}</a></li>
+        <li {% if page_url == item.href %}class="active"{% endif %}><a href="{{ site.baseurl }}{{ item.href }}">{{ item.title }}</a></li>
         {% endif %}
         {% endfor %}
       </ul>

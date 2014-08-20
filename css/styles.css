@@ -33,10 +33,6 @@
 
 /* navbar */
 #main-nav { text-transform: uppercase; }
-.navbar-default {
-    background-color: #F8F8F8;
-    border-color: #F8F8F8;
-}
 
 .overflow {
     position: absolute;
