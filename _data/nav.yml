@@ -12,6 +12,7 @@
     href: '/events/retreats/'
   - title: 'Service Events'
     href: '/events/compassion/'
+    noactive: true
   - title: 'Small Groups'
     href: '/events/small-groups/'
   - title: 'Calendar'
@@ -20,6 +21,8 @@
   href: '/freshmen/'
 - title: 'Compassion'
   href: '/compassion/'
+- title: 'Service'
+  href: '/events/compassion/'
 - title: 'Staff'
   href: '/staff/'
 - title: 'Give to CCF'
