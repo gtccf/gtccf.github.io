@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.subtitle %}{{ page.subtitle }} - {% endif %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700,700italic,400italic|Roboto+Condensed:400,400italic,700,700italic|Shadows+Into+Light|Raleway:400,700' rel='stylesheet' type='text/css'>
   <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="{{ site.baseurl }}/css/styles.css" rel="stylesheet" media="screen">
@@ -22,6 +22,7 @@
 <body>
 {% include nav.html %}
 {% if page.title %}<div class="pageheadtext"><h1>{{ page.title }}</h1></div>{% endif %}
+{% if page.subtitle %}<div class="pageheadtext"><h3>{{ page.subtitle }}</h3></div>{% endif %}
 
 {{ content }}
 
