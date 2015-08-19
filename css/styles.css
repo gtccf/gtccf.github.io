@@ -91,7 +91,7 @@ span.tags {
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 50px;
+    min-height: 50px;
     background-color: #dbdbdb;
     margin-left: -20px; /* Removes white space to left of footer with fixed- otherwise use absolute.  */
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -109,6 +109,22 @@ html {
     top: -60px;
     height: 0px;
     visibility: hidden;
+}
+
+#footer .social-buttons {
+    text-align: center;
+}
+#footer .social-buttons a {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#main-nav .navbar-brand {
+    padding: 9px 15px;
+    line-height: 32px;
+}
+#main-nav .navbar-brand img {
+    margin: 0;
 }
 
 /* Carousel base class */
