@@ -7,3 +7,8 @@ twitter_username: GTCCF
 
 # Build settings
 markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
