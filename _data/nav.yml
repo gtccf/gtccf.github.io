@@ -1,28 +1,26 @@
-- title: 'Home'
-  href: '/'
-- title: 'About'
-  href: '/about/'
-- title: 'New to CCF'
-  href: '/new-to-ccf/'
-- title: 'Events'
+- title: "Home"
+  href: "/"
+- title: "About"
+  href: "/about/"
+- title: "New to CCF"
+  href: "/new-to-ccf/"
+- title: "Events"
   subitems:
-  - title: 'Weekly Events'
-    href: '/events/weekly/'
-  - title: 'Retreats'
-    href: '/events/retreats/'
-  - title: 'Small Groups'
-    href: '/events/small-groups/'
-- title: 'Freshmen'
-  href: '/freshmen/'
-- title: 'Service Opps'
-  href: '/compassion/'
-- title: 'Sign-Ups'
-  href: '/forms/'
-- title: 'Staff'
-  href: '/staff/'
-- title: 'Give to CCF'
-  href: '/alumni/'
-- title: 'Resources'
-  href: '/resources/'
-- title: 'CCF 35th'
-  href: '/ccf35/'
+    - title: "Weekly Events"
+      href: "/events/weekly/"
+    - title: "Retreats"
+      href: "/events/retreats/"
+    - title: "Small Groups"
+      href: "/events/small-groups/"
+- title: "Freshmen"
+  href: "/freshmen/"
+- title: "Service Opps"
+  href: "/compassion/"
+- title: "Sign-Ups"
+  href: "/forms/"
+- title: "Staff"
+  href: "/staff/"
+- title: "Give to CCF"
+  href: "/alumni/"
+- title: "Resources"
+  href: "/resources/"
